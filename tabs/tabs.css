@@ -1,0 +1,38 @@
+.tab-list {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-list li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 0.2em;
+    background-color: #FFF;
+}
+
+.tab-list li.active {
+    background-color: #999; 
+}
+
+.tab-list li a {
+    color: #000;
+    display: block;
+    padding: 3px 10px 3px 10px;
+}
+
+.tab-panel {
+    display: none;
+    min-height: 150px;
+    overflow: auto;
+    background-color: #999;
+    color: #000;
+    ruby-align: center;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.tab-panel p {
+    margin: 20px;
+}
